@@ -6,9 +6,16 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DD194AEB2206913200EAF25B /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = DD194AEA2206913200EAF25B /* socket.c */; };
+		DD194AED2206913D00EAF25B /* include in Resources */ = {isa = PBXBuildFile; fileRef = DD194AEC2206913D00EAF25B /* include */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DD194AE122068A4000EAF25B /* C_Networking_Bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C_Networking_Bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD194AE422068A4000EAF25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD194AEA2206913200EAF25B /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		DD194AEC2206913D00EAF25B /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,8 @@
 		DD194AE322068A4000EAF25B /* C_Networking_Bundle */ = {
 			isa = PBXGroup;
 			children = (
+				DD194AEC2206913D00EAF25B /* include */,
+				DD194AEA2206913200EAF25B /* socket.c */,
 				DD194AE422068A4000EAF25B /* Info.plist */,
 			);
 			path = C_Networking_Bundle;
@@ -102,6 +111,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD194AED2206913D00EAF25B /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD194AEB2206913200EAF25B /* socket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
